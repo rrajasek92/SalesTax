@@ -1,3 +1,4 @@
+//Assigns to the variable '$' the operator of document...., can be used as a shortcut
 var $ = function (id) {
     return document.getElementById(id); 
 }
@@ -27,7 +28,7 @@ function calculate_click() {
 	}	
 }
 
-
+//Highlights and focuses on box that was clicked
 window.onload = function () {
 	 $("calculate").onclick = calculate_click;
 	 $("subtotal").focus;
